@@ -6,7 +6,7 @@
 
 .jumbotron {
     padding: 2rem;
-    background-image: url(/img/Opakustore.jpg);
+    background-image: url(img/Opakustore.jpg);
     background-position: center;
     height: 500px; 
 }
