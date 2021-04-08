@@ -38,7 +38,7 @@
         <input class="form-control" type="search" placeholder="Cari Produk.." aria-label="Search">
         <button class="btn bg-dark text-light" type="submit">Cari</button>
       </form>
-      <button type="button" class="btn btn-secondary">Login</button>
+      <a href="login.html" class="btn btn-secondary">Login</a>
       </div>
     </div>
   </nav>
@@ -136,7 +136,9 @@
             <div class="card-body">
               <h5 class="card-title">Celana Panjang</h5>
               <p class="card-text">Celana panjang berbagai warna untuk Balita Anda.</p>
-              <a href="#" class="btn btn-primary">Beli Produk</a>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#celanaPanjang">
+                Beli Produk
+              </button>
             </div>
           </div>
         </div>
@@ -146,7 +148,9 @@
             <div class="card-body">
               <h5 class="card-title">Jaket Motif Angsa</h5>
               <p class="card-text">Jaket abu - abu bermotif angsa, berbahan dasar lembut. <h1></h1></p>
-              <a href="#" class="btn btn-primary">Beli Produk</a>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#jaketangsa">
+                Beli Produk
+              </button>
             </div>
           </div>
         </div>
@@ -156,7 +160,9 @@
             <div class="card-body">
               <h5 class="card-title">Kemeja</h5>
               <p class="card-text">Kemeja putih untuk Balita Anda dengan motif.</p>
-              <a href="#" class="btn btn-primary">Beli Produk</a>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kemeja">
+                Beli Produk
+              </button>
             </div>
           </div>
         </div>
@@ -166,7 +172,9 @@
             <div class="card-body">
               <h5 class="card-title">Kaos Doraemon</h5>
               <p class="card-text">Kaos berbahan dasar lembut dengan gambar Doraemon.</p>
-              <a href="#" class="btn btn-primary">Beli Produk</a>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#doraemon">
+                Beli Produk
+              </button>
             </div>
           </div>
         </div>
@@ -176,7 +184,9 @@
             <div class="card-body">
               <h5 class="card-title">Jaket Pink Kelinci</h5>
               <p class="card-text">Jaket pink bermotif kelinci, berbahan dasar lembut.</p>
-              <a href="#" class="btn btn-primary">Beli Produk</a>
+               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#jaketpink">
+                Beli Produk
+              </button>
             </div>
           </div>
         </div>
@@ -186,7 +196,9 @@
             <div class="card-body">
               <h5 class="card-title">Jaket Ungu Cat & Mouse</h5>
               <p class="card-text">Jaket ungu bermotif kucing dan tikus, berbahan dasar lembut.</p>
-              <a href="#" class="btn btn-primary">Beli Produk</a>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#jaketungu">
+                Beli Produk
+              </button>
             </div>
           </div>
         </div>
@@ -245,6 +257,116 @@
     </div>
   </section>
   <!-- Akhir Kontak -->
+
+    <!-- Modal -->
+  <div class="modal fade" id="celanaPanjang" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Celana Panjang Anak</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5>Anda akan membeli produk ini</h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kembali</button>
+          <button type="button" class="btn btn-primary">Pembayaran</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="jaketangsa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Jaket Motif Angsa</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5>Anda akan membeli produk ini</h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kembali</button>
+          <button type="button" class="btn btn-primary">Pembayaran</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="kemeja" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Kemeja</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5>Anda akan membeli produk ini</h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kembali</button>
+          <button type="button" class="btn btn-primary">Pembayaran</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="doraemon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Kaos Doraemon</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5>Anda akan membeli produk ini</h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kembali</button>
+          <button type="button" class="btn btn-primary">Pembayaran</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="jaketpink" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Jaket Pink</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5>Anda akan membeli produk ini</h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kembali</button>
+          <button type="button" class="btn btn-primary">Pembayaran</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="jaketungu" tabindex="-1" aria-labelledby="jaketungu" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Jaket Ungu Kucing dan Tikus</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h5>Anda akan membeli produk ini</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kembali</button>
+        <button type="button" class="btn btn-primary">Pembayaran</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     
 
 
