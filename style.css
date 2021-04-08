@@ -1,0 +1,86 @@
+.form-control{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.jumbotron {
+    padding: 2rem;
+    background-image: url(/img/Opakustore.jpg);
+    background-position: center;
+    height: 500px; 
+}
+
+/*info panel */
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: -120px;
+    background-color: rgb(0, 225, 255);
+    padding: 20px;
+}
+
+.info-panel img{
+    width: 100px;
+    height: 30px; 
+}
+
+.info-panel h4{
+    margin-top: 10px;
+}
+
+#featured .jarak{
+    padding: 10px;
+    
+}
+
+
+@media (max-width: 991.98px) { 
+    #product .margin{
+        margin-left: 8%;
+    }
+ }
+
+
+@media (max-width: 360px){
+    .form-control{
+      width: 140px;
+    }
+
+    #featured{
+        width: 300px;
+        margin-left: 8%;
+        margin-right: 8%;
+       
+    }
+
+   #featured .jarak{
+       padding: 10px;
+   }
+
+   #product .margin{
+       margin-left: 8%;
+   }
+}
+
+@media (max-width: 576px){
+    .form-control{
+        width: 140px;
+      }
+
+      #featured{
+        width: 300px;
+        margin-left: 8%;
+        margin-right: 8%;
+       
+    }
+      
+    #featured .jarak{
+        padding: 10px;
+    }
+    #product .margin{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
